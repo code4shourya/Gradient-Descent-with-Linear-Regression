@@ -1,38 +1,37 @@
 # Gradient-Descent-with-Linear-Regression
-Gradient Descent Implementation with Linear Regression implemented using Python with Housing Prices Dataset
+Implementation of Gradient Descent  with Linear Regression model using Python on the Housing Prices Dataset.
 # Gradient Descent 
 
-Gradient Descent is an optimization algorithm
-that works iteratively and aims to find the minimum value of a convex function with respect to a set of parameters.
-This process is used in in many machine learning processes .
+Gradient Descent is an optimization algorithm that works iteratively and aims to find the minimum value of a convex function with respect to a set of parameters.
+This process is used in multiple machine learning algorithms and processes.
 
 ## Explanation
 
-Let's take an example to understand Gradient Descent using a real life example
+Let's try to understand Gradient Descent using a real life example,
 
 ```
 Let's move back to our school days ,
-My friends and I always find to an argument that who is going to treat everyone in the canteen , To held this argument we often have a paper ball competition . 
-In this paper ball competition we all were given set number of paper balls and our objective is to throw as many paper balls in dustbin as much as possible ,
-person with the lowest score  that is person with least number of balls in the dustbin had to treat everyone that day , 
-Now  suppose it's your turn and you are not sure with how much strength is required to throw the paper ball in the dustbin , so you random guessed to some degree ,
-for example 30% of your strength will do and you make an attempt but you fail so you make a reattempt making some modifications in your strength so you estimate how short the ball fell short from the dustbin  so you readjust strength to make a successful throw , for example 60% now you again throw a paper ball but again failed . Now you make an third attempt with adjusted strength  for example 50% will work and BINGO you made it .
+My friends and I always used to argue that who is going to treat everyone in the canteen, and to put to rest this huge issue we often used to have a Paper Ball competition . 
+In this paper ball competition all were given a definite number of paper balls and the objective was to throw as many paper balls in dustbin as one possibly can. The number of balls thrown successfully in the dustbin was that player's score.
+The friend with the lowest score had to treat everyone that day.  Sounds like a cool solution right?
+Now  suppose you and your friends are playing this game. It's your turn and you are not sure that with how much force you should shoot to throw the paper ball into the dustbin , so you randomly guessed some degree,
+lets say 30% of your force and you make an attempt but you fell short. So you reattempt the shot making some modifications in your applied force based on estimation of  how short the ball fell of the dustbin.  Now lets suppose you increase your force to 60% and you again throw a paper ball. But what? This time the ball just fell ahead of the dustbin. Looks like you overcompensated for the last time.Now for your final attempt you are very careful and confident, you just need to reduce your throw force slightly. This time the adjusted force is 50% and BINGO! you did it! Now you just got to hope that at least one of your friend fails to throw even a single ball into the dustbin and you will be safe :p.
 
-This is what we actually do in gradient descent 
+This is more or less precisely what we do in findig gradient descent. 
 ```
 
-## How Above Example is Analogy to Gradient Descent Algorithm
+## How the above example is an analogy to Gradient Descent Algorithm?
 
-```python
-In the above example , First we initialized our strength with 30% , This is Random Initialisation in Gradient Descent .
+```
+In the above example , first we initialized our force with 30% , This is **Random Initialisation** in Gradient Descent .
 
-Then in second attempt we make an attempt with required strength , Similarly In Gradient Descent we Generate Predictions
+Then in second attempt we try to increase the force based on our analysis from the previous throw, similarly in Gradient Descent we generate **Predictions**.
 
-Then we estimate how far the ball is from dustbin , Similarly in Gradient Descent we Calculate Cost/Error with respect to actual value 
+We estimated how far the ball falls from dustbin, just the same way in Gradient Descent we calculate **Cost/Error** with respect to the actual value(the exact amount of force required to basket the ball in this case). 
 
-Then we adjust our strength by updating it , Similarly we update parameters in Gradient Descent i.e. slope and intercept in Linear Regression Line . 
+Then we adjust our force by updating it, similarly we update the parameters used in Gradient Descent i.e. **slope** and **intercept** in the Linear Regression Line. 
 
-Then we again make a reattempt until we start scoring , similarly we start making accurate predictions iteratively until the cost function is minimum and hence we get the accurate results .
+We keep reattempting until we start scoring, and in Gradient Descent we keep making predictions iteratively until the cost function is minimum and ultimately we get the accurate results .
 
 ```
 
