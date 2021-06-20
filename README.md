@@ -11,6 +11,10 @@ Implementation of Gradient Descent  with Linear Regression model using Python on
 
 Gradient Descent is an optimization algorithm that works iteratively and aims to find the minimum value of a convex function with respect to a set of parameters.
 This process is used in multiple machine learning algorithms and processes.
+<p align="center">
+  <img width="600" height="400" src="https://github.com/code4shourya/Gradient-Descent-with-Linear-Regression/blob/master/working.jpeg">
+  <h6 align="center">Illustration of how the gradient descent algorithm works</h6>
+</p>
 
 ## Explanation
 
