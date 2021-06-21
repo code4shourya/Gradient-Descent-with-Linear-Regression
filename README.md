@@ -2,7 +2,7 @@
 Implementation of Gradient Descent  with Linear Regression model using Python on the Housing Prices Dataset.
 
 <p align="center">
-  <img width="600" height="400" src="https://github.com/code4shourya/Gradient-Descent-with-Linear-Regression/blob/master/grad3.gif">
+  <img width="600" height="400" src="https://raw.githubusercontent.com/code4shourya/Gradient-Descent-with-Linear-Regression/master/grad3.gif">
   <h6 align="center">The values of m and c are updated at each iteration to get the optimal solution</h6>
 </p>
 
